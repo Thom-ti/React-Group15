@@ -1,8 +1,8 @@
-import data from "./Data";
+import toppings from "./Data.js";
 import { useState } from "react";
 
 function Checkbox() {
-  const [toppings, setToppings] = useState(data);
+  // const [toppings, setToppings] = useState(data);
   const [total, setTotal] = useState(0);
   const [isShow, setIsShow] = useState(false);
   const [select, setSelect] = useState([]);
